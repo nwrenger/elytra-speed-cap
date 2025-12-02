@@ -58,7 +58,7 @@ Default contents:
 
 ## Showcase
 
-The max speed is set to 10 blocks per second.
+The max speed is set to **10 blocks per second**.
 
 > **Rocket Boosting**
 >
