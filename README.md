@@ -14,11 +14,13 @@ Works in both **singleplayer** and on a dedicated **server**, with an optional c
 
 1. **Performance Boost**:
    Prevents high-speed elytra flight from overwhelming your server's chunk loader while being designed to be very lightweight.
-2. **Fairness**:
+2. **Comprehensive Coverage**:
+   Works with every kind of boosting: Vertical boosting, rocket boosting and event when boosting your flight via a channeling trident.
+3. **Fairness**:
    Makes fast travel more balanced without disabling elytras altogether.
-3. **Flexible**:
+4. **Flexible**:
    The server-side mod prevents all players, including those without it, from flying faster than the configured speed, allowing vanilla setups to join seamlessly. The client-side mod enhances the flying experience, making it smoother.
-4. **Compatible**:
+5. **Compatible**:
    It's fully compatible with modded setups right out of the box. Like for example, the popular mod **Do a Barrel Roll**.
 
 ## How It Works
