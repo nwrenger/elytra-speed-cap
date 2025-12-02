@@ -6,21 +6,34 @@
 
 A lightweight mod that **limits the maximum speed of elytra flight** to a configurable value.
 
-> Perfect for multiplayer servers that want to nerf elytra rushing, reduce chunk-loading lag, or simply keep travel speeds balanced.
+Works in both **singleplayer** and on a dedicated **server**, with an optional client-side mod that offers additional improvements for players.
+
+> Ideal for multiplayer servers that want to **nerf elytra rushing**, **reduce chunk-loading lag**, or **balance late-game travel**.
+
+## Why Use This Mod?
+
+1. **Performance Boost**:
+   Prevents high-speed elytra flight from overwhelming your server's chunk loader while being designed to be very lightweight.
+2. **Fairness**:
+   Makes fast travel more balanced without disabling elytras altogether.
+3. **Flexible**:
+   The server-side mod prevents all players, including those without it, from flying faster than the configured speed, allowing vanilla setups to join seamlessly. The client-side mod enhances the flying experience, making it smoother.
+4. **Compatible**:
+   It's fully compatible with modded setups right out of the box. Like for example, the popular mod **Do a Barrel Roll**.
 
 ## How It Works
 
-Minecraft **calculates** elytra movement primarily on the server, while the client **predicts** movement locally to keep the flight smooth.
+Minecraft calculates elytra flight **server-side**, while the client predicts motion **locally**.
+To enforce a maximum speed cap:
 
-To enforce a maximum speed:
+- **Server Side**:
+  Caps player velocity when exceeding the configured speed.
+- **Client Side (optional)**:
+  Syncs the flight prediction to prevent visual stutter or lagging back.
 
-- **Server side**:
-  Applies the speed limit and caps the velocity of players who exceed it.
-- **Client side (optional but recommended)**:
-  Adjusts local prediction to match the server's configured maximum for smoother behavior.
-  Without the client mod, players who exceed the limit may experience rubberbanding.
-
-**Server owners should encourage players to install the mod locally** for the best experience.
+> **Note**:
+> Without the mod on the client, players might snap back (lag back) because the server corrects their velocity when exceeding the cap.
+> Server owners should encourage players to install the mod for a smoother experience.
 
 ## Configuration
 
@@ -30,7 +43,7 @@ A config file is created at:
 ./config/elytra-speed-cap.json
 ```
 
-Default structure:
+Default contents:
 
 ```json
 {
@@ -38,9 +51,8 @@ Default structure:
 }
 ```
 
-- `max_speed`: Maximum allowed elytra speed in **blocks/second**.
-
-After changing the value, **restart the server** to apply it.
+- `max_speed`: Maximum allowed elytra speed in **blocks per second**.
+- After editing, **restart the server/game** to apply changes.
 
 ## Contributing & Issues
 
