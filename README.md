@@ -56,6 +56,18 @@ Default contents:
 - `max_speed`: Maximum allowed elytra speed in **blocks per second**.
 - After editing, **restart the server/game** to apply changes.
 
+## Showcase
+
+The max speed is set to 10 blocks per second.
+
+> Rocket Boosting
+>
+> ![rocket](showcase/rocket.png)
+
+> Channeling Trident
+>
+> ![trident](showcase/trident.png)
+
 ## Contributing & Issues
 
 I warmly welcome:
