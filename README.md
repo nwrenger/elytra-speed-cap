@@ -64,7 +64,7 @@ The max speed is set to **10 blocks per second**.
 >
 > ![rocket](showcase/rocket.png)
 
-> **Channeling Trident**: Measured in-game speed is 9.99 blocks per second.
+> **Riptide Trident**: Measured in-game speed is 9.99 blocks per second.
 >
 > ![trident](showcase/trident.png)
 
