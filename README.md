@@ -60,11 +60,11 @@ Default contents:
 
 The max speed is set to **10 blocks per second**.
 
-> **Rocket Boosting**
+> **Rocket Boosting**: Measured in-game speed is 9.90 blocks per second.
 >
 > ![rocket](showcase/rocket.png)
 
-> **Channeling Trident**
+> **Channeling Trident**: Measured in-game speed is 9.99 blocks per second.
 >
 > ![trident](showcase/trident.png)
 
