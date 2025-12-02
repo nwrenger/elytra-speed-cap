@@ -60,11 +60,11 @@ Default contents:
 
 The max speed is set to 10 blocks per second.
 
-> Rocket Boosting
+> **Rocket Boosting**
 >
 > ![rocket](showcase/rocket.png)
 
-> Channeling Trident
+> **Channeling Trident**
 >
 > ![trident](showcase/trident.png)
 
