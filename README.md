@@ -15,7 +15,7 @@ Works in both **singleplayer** and on a dedicated **server**, with an optional c
 1. **Performance Boost**:
    Prevents high-speed elytra flight from overwhelming your server's chunk loader while being designed to be very lightweight.
 2. **Comprehensive Coverage**:
-   Works with every kind of boosting: Vertical boosting, rocket boosting and even when boosting your flight via a channeling trident.
+   Works with every kind of boosting: Vertical boosting, rocket boosting and even when boosting your flight via a riptide trident.
 3. **Fairness**:
    Makes fast travel more balanced without disabling elytras altogether.
 4. **Flexible**:
