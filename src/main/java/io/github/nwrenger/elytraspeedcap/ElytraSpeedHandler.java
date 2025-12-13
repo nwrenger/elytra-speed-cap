@@ -27,7 +27,7 @@ public final class ElytraSpeedHandler {
                 player.setDeltaMovement(capped);
 
                 // Tell the client "your motion changed", so it updates cleanly
-                player.hasImpulse = true;
+                player.needsSync = true;
                 player.hurtMarked = true;
             }
         }
