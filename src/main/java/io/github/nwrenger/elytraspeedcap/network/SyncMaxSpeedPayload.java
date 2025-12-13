@@ -17,7 +17,7 @@ public record SyncMaxSpeedPayload(double maxSpeed) implements CustomPacketPayloa
             .fromNamespaceAndPath(ElytraSpeedCap.MOD_ID, "sync_max_speed");
 
     // Fabric / MC payload type
-    public static final CustomPacketPayload.@NonNull Type<SyncMaxSpeedPayload> ID = new CustomPacketPayload.Type<>(
+    public static final CustomPacketPayload.@NonNull Type<@NonNull SyncMaxSpeedPayload> ID = new CustomPacketPayload.Type<>(
             SYNC_MAX_SPEED_PAYLOAD_ID);
 
     // How to (de)serialize this payload
