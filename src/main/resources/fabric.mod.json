@@ -6,6 +6,7 @@
   "description": "Limit the maximum speed of elytra flight to a configurable value.",
   "authors": ["nwrenger"],
   "contact": {
+    "homepage": "https://modrinth.com/mod/elytra-speed-cap",
     "sources": "https://github.com/nwrenger/elytra-speed-cap",
     "issues": "https://github.com/nwrenger/elytra-speed-cap/issues"
   },
