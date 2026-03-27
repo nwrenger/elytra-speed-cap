@@ -13,7 +13,7 @@ public final class Packets {
 
     public static void register() {
         // Must be called on BOTH physical sides during common init
-        PayloadTypeRegistry.playS2C().register(
+        PayloadTypeRegistry.clientboundPlay().register(
                 SyncMaxSpeedPayload.ID,
                 SyncMaxSpeedPayload.CODEC);
     }

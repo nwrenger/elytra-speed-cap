@@ -8,10 +8,10 @@ import net.minecraft.world.phys.Vec3;
 public final class ElytraSpeedHandler {
 
     public static void init() {
-        ServerTickEvents.END_WORLD_TICK.register(ElytraSpeedHandler::onEndWorldTick);
+        ServerTickEvents.END_LEVEL_TICK.register(ElytraSpeedHandler::onEndLevelTick);
     }
 
-    private static void onEndWorldTick(ServerLevel level) {
+    private static void onEndLevelTick(ServerLevel level) {
         double maxSpeed = ElytraSpeedCap.getConfig().max_speed;
 
         for (ServerPlayer player : level.players()) {
