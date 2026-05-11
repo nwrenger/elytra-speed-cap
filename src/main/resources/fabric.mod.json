@@ -10,7 +10,7 @@
     "sources": "https://github.com/nwrenger/elytra-speed-cap",
     "issues": "https://github.com/nwrenger/elytra-speed-cap/issues"
   },
-  "license": "MIT",
+  "license": "LGPL-3.0-or-later",
   "icon": "assets/elytra-speed-cap/icon.png",
   "environment": "*",
   "entrypoints": {
