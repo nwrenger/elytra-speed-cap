@@ -68,6 +68,9 @@ jar {
 	from("LICENSE") {
 		rename { "${it}_${inputs.properties.archivesName}"}
 	}
+	from("LICENSE.GPL") {
+		rename { "${it}_${inputs.properties.archivesName}"}
+	}
 }
 
 // configure the maven publication
